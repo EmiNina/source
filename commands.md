@@ -10,18 +10,18 @@ Manager
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!afklimit | X | sets the maximum afk time |
-|!botname | (botname) | change the default bot name |
+|!afklimit | X | nustato maksimalų AFK laiką |
+|!botname | (botname) | pakeičia esamą boto vardą |
 |!bouncer+ | | toggle bouncer+ |
 |!skippos | X | set the position to which skip and lockskip moves the dj |
-|!clearchat | |clears the chat |
+|!clearchat | |išvalo susirašnėjimo langą |
 |!cycle | | toggle DJ cycle |
 |!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
-|!language | (language) | specify the language you would like the bot to use |
+|!language | (language) | nustato kalbą, kuria norėtumėte, kad botas naudotų |
 |!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
 |!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
-|!logout | | logs out account bot is hosted on |
-|!refresh | | refreshes the browser of whoever runs the bot |
+|!logout | | atsijungia nuo vartotojo, kuris valdo botą|
+|!refresh | | perkrauna puslapį ar tai kas valdo botą |
 |!usercmdcd | X | set the cooldown on commands by grey users |
 |!usercommands | | toggle user commands |
 |!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
@@ -31,17 +31,17 @@ Bouncer+
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!add | @user | add user to the waitlist |
+|!add | @user | prideda vartotoją į laukiančiųjų sąrašą |
 |!afkremoval | | toggles the afk check |
 |!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
 |!deletechat | @user | delete all the chats by a certain user |
-|!lock | | lock the waitlist |
+|!lock | | užrakina laukiančiųjų sąrašą |
 |!lockdown | | lock down the room: only staff can chat |
 |!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
-|!remove | @user | remove user from the waitlist |
-|~~!roulette~~ | | ~~start a roulette~~ |
+|!remove | @user | pašalina vartotoją iš laukiančiųjų sąrašo |
+|~~!roulette~~ | | ~~pradeda ruletę ~~ |
 |!songstats | | toggle song statistics |
-|!unlock | | unlock the waitlist |
+|!unlock | | atrakina laukiančiųjų sąrašą |
 |!welcome | | toggle the welcome message on user join |
 
 Bouncer
@@ -50,10 +50,10 @@ Bouncer
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!active | (X) | shows how many users chatted in the past X minutes. If no X specified, 60 is set as default |
-|!afkreset | @user | resets the afk time of user |
-|!afktime | @user | shows how long user has been afk |
+|!afkreset | @user | atnaujina AFK laiką vartotojui |
+|!afktime | @user | parodo kiek laiko vartotojas buvo AFK |
 |!autodisable | | toggle the autodisable |
-|!ban | @user | bans user for 1 day |
+|!ban | @user | užblokuoja vartotoją 1 dienai |
 |!blacklist / !bl | blacklistname | add the song to the specified blacklist |
 |!commanddeletion | | toggles if bot commands gets deleted |
 |!blinfo | | get information required to blacklist a song |
